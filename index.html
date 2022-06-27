@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:ital,wght@0,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>UITODO</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="highContainer">
+            <span>HIGH</span>
+
+            <div class="input__container">
+                <input type="text" id="highInput" placeholder="Добавить важных дел">
+                <img src="img/close-icon.png" alt="+" id="add">
+            </div>
+
+            <div class="task__container">
+                <img src="img/Ellipse1.png" alt="ellipse" id="firstEllipse">
+                <img src="img/Ellipse2.png" alt="ellipse" id="secondEllipse" class="hide">
+                <div class="task">Вот вам и супер интересная тема.
+                    Вы наверняка заметили что ваши файлы с кодом становятся все объемнее, что хочется вынести некоторые
+                    вещи
+                    куда-то за пределы основной программы.</div>
+                <img src="img/x.png" alt="X" id="close">
+            </div>
+
+            <div class="task__container">
+                <img src="img/Ellipse1.png" alt="ellipse" id="firstEllipse">
+                <img src="img/Ellipse2.png" alt="ellipse" id="secondEllipse" class="hide">
+                <div class="task">Сверстать этот TODO list</div>
+                <img src="img/x.png" alt="X" id="close">
+            </div>
+
+            <div class="task__container">
+                <img src="img/Ellipse1.png" alt="ellipse" id="firstEllipse">
+                <img src="img/Ellipse2.png" alt="ellipse" id="secondEllipse" class="hide">
+                <div class="task">Начать делать задачу</div>
+                <img src="img/x.png" alt="X" id="close">
+            </div>
+        </div>
+
+        <div class="lowContainer">
+            <span>LOW</span>
+
+            <div class="input__container">
+                <input type="text" id="highInput" placeholder="Добавить">
+                <img src="img/close-icon.png" alt="+" id="add">
+            </div>
+
+            <div class="task__container">
+                <img src="img/Ellipse1.png" alt="ellipse" id="firstEllipse">
+                <img src="img/Ellipse2.png" alt="ellipse" id="secondEllipse" class="hide">
+                <div class="task">Начать делать задачу</div>
+                <img src="img/x.png" alt="X" id="close">
+            </div>
+
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+
+</html>
